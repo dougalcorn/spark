@@ -1,0 +1,22 @@
+!!! 5
+%html
+  %head
+    %title Ludlow
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+%body
+  .container
+    %header.row
+      .columns.twelve
+        %h1 Hi!
+    #main.row
+      .columns.twelve
+        = yield
+    %footer.row
+      .columns.four
+        %h5 First Column
+      .columns.four
+        %h5 Middle Column
+      .columns.four
+        %h5 Last Column
