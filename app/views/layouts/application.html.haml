@@ -12,8 +12,11 @@
       .columns.twelve
         %h1 Hi! This is the header.
     #main.row
-      .columns.twelve
+      .columns{class: content_for?(:sidebar) ? 'eight' : 'twelve'}
         = yield
+      - if content_for?(:sidebar)
+        .columns.four
+          = content_for(:sidebar)
     %footer.row
       .columns.four
         %h5 First Column
