@@ -1,4 +1,4 @@
-## Gaslight Base
+## Gaslight Spark
 
 * compass
 * Zurb Foundation
