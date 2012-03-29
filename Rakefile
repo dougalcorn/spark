@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Ludlow::Application.load_tasks
+Gaslight::Application.load_tasks
