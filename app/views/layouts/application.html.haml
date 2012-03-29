@@ -1,7 +1,8 @@
 !!! 5
 %html
   %head
-    %title Ludlow
+    %title Base
+    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Podkova:400,700'
     = stylesheet_link_tag    "application", :media => "all"
     = javascript_include_tag "application"
     = csrf_meta_tags
@@ -9,14 +10,17 @@
   .container
     %header.row
       .columns.twelve
-        %h1 Hi!
+        %h1 Hi! This is the header.
     #main.row
       .columns.twelve
         = yield
     %footer.row
       .columns.four
         %h5 First Column
+        %p You might say something about the site here.
       .columns.four
         %h5 Middle Column
+        %p Maybe some contact information?
       .columns.four
         %h5 Last Column
+        %p How social are you? Where are all the links?
