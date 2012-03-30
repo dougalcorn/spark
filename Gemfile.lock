@@ -47,6 +47,11 @@ GEM
     compass-rails (1.0.1)
       compass (~> 0.12.0)
     diff-lcs (1.1.3)
+    eco (1.0.0)
+      coffee-script
+      eco-source
+      execjs
+    eco-source (1.1.0.rc.1)
     ejs (1.0.0)
     erubis (2.7.0)
     execjs (1.3.0)
@@ -141,6 +146,7 @@ DEPENDENCIES
   ZURB-foundation
   coffee-rails (~> 3.2.1)
   compass-rails
+  eco
   haml
   high_voltage
   jasminerice

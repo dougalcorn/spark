@@ -1,0 +1,2 @@
+<h1>This template</h1>
+<p><%= "eco string" %></p>
