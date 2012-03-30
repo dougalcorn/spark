@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.2'
 gem 'high_voltage'
 gem 'haml'
+gem "rails-backbone"
 
 gem 'sqlite3'
 
